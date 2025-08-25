@@ -58,7 +58,7 @@
             <input
                 type="text"
                 id="search-input"
-                placeholder="        Pesquise o dispositivo ou pelo CID (A000)"
+                placeholder="        Pesquise pelo dispositivo ou CID (A000)"
                 class="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 shadow-sm"
             >
         </div>
@@ -67,12 +67,13 @@
             <table class="min-w-full divide-y divide-gray-200">
                 <thead>
                     <tr>
-                        <th scope="col" data-col="CATEGORIA">CATEGORIA</th>
-                        <th scope="col" data-col="PROCEDIMENTO">PROCEDIMENTO</th>
-                        <th scope="col" data-col="IDADE MÍNIMA">IDADE MÍNIMA</th>
-                        <th scope="col" data-col="IDADE MÁXIMA">IDADE MÁXIMA</th>
-                        <th scope="col" data-col="QUANTIDADE MÁXIMA">QUANTIDADE MÁXIMA</th>
-                        <th scope="col" data-col="CIDS">CIDs</th>
+                        <th scope="col" data-col="Categoria">Categoria</th>
+                        <th scope="col" data-col="Procedimento">Procedimento</th>
+                        <th scope="col" data-col="Descrição"> Descrição</th>
+                        <th scope="col" data-col="Idade Mínima">Idade Mínima</th>
+                        <th scope="col" data-col="Idade Máxima">Idade Máxima</th>
+                        <th scope="col" data-col="Quantidade Máxima">Quantidade Máxima</th>
+                        <th scope="col" data-col="CIDs">CIDs</th>
                     </tr>
                 </thead>
                 <tbody id="data-table-body" class="bg-white divide-y divide-gray-200">
@@ -86,7 +87,7 @@
     </div>
     <script>
         let data = [], filteredData = [];
-        let currentPage = 1, currentSortColumn = 'CATEGORIA', currentSortOrder = 'asc';
+        let currentPage = 1, currentSortColumn = 'Categoria', currentSortOrder = 'asc';
         const rowsPerPage = 20, columnFilters = {};
 
         // Cria linhas da tabela
@@ -100,12 +101,13 @@
             arr.forEach(item => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td>${item.CATEGORIA || ''}</td>
-                    <td>${item.PROCEDIMENTO || ''}</td>
-                    <td>${item['IDADE MÍNIMA'] || ''}</td>
-                    <td>${item['IDADE MÁXIMA'] || ''}</td>
-                    <td>${item['QUANTIDADE MÁXIMA'] || ''}</td>
-                    <td>${item.CIDS || ''}</td>
+                    <td>${item.Categoria || ''}</td>
+                    <td>${item.Procedimento || ''}</td>
+                    <td>${item.Descrição || ''}</td>
+                    <td>${item['Idade Mínima'] || ''}</td>
+                    <td>${item['Idade Máxima'] || ''}</td>
+                    <td>${item['Quantidade Máxima'] || ''}</td>
+                    <td>${item.CIDs || ''}</td>
                 `;
                 tbody.appendChild(row);
             });
@@ -170,7 +172,7 @@
             const search = document.getElementById('search-input').value.toLowerCase();
             if (search) {
                 arr = arr.filter(item =>
-                    ['CATEGORIA','PROCEDIMENTO','CIDS']
+                    ['Categoria','Procedimento','CIDs']
                         .some(col => (item[col] || '').toString().toLowerCase().includes(search))
                 );
             }
