@@ -2,11 +2,11 @@
     {
         "Categoria": "Adaptação",
         "Procedimento": "0701020601 - Tábua (Prancha) Para Transferência",
-        "Descrição": "Adaptações Para Atividade De Vida Diária (AVD) – Adaptação De Madeira, Plástico Ou Outro Material Resistente, Com Revestimento Ou Superfície Que Facilite O Deslizamento, Bordas Abauladas, Utilizada Para Facilitar As Transferências De Usuários De Cadeira De Rodas.",
-        "Idade Mínima": "12 Ano(S)",
-        "Idade Máxima": "130 Ano(S)",
-        "Quantidade Máxima": 1,
-        "CIDs": "B900, B91, B92, B941, F000, F001, F002, F009, F010, F011, F012, F013, F018, F019, F023, F842, F848, F849, G09, G10, G114, G120, G121, G122, G128, G129, G130, G20, G319, G35, G368, G369, G373, G378, G379, G610, G619, G621, G700, G710, G800, G801, G802, G803, G804, G808, G809, G811, G819, G820, G821, G822, G823, G824, G825, I690, I691, I692, I693, I694, I698, M069, M080, M246, M45, M623, Q049, Q050, Q051, Q052, Q053, Q054, Q055, Q056, Q057, Q058, Q059, Q068, Q069, Q070, Q078, Q079, Q720, Q743, Q760, S060, S061, S062, S063, S064, S065, S066, S067, S068, S069, S140, S141, S240, S241, S340, S341, T055, T905, T913, T929, T931, T932, T936, T953, Y835, Z897"
+            "Descrição": "Adaptações Para Atividade De Vida Diária (AVD) – Adaptação De Madeira, Plástico Ou Outro Material Resistente, Com Revestimento Ou Superfície Que Facilite O Deslizamento, Bordas Abauladas, Utilizada Para Facilitar As Transferências De Usuários De Cadeira De Rodas.",
+            "Idade Mínima": "12 Ano(S)",
+            "Idade Máxima": "130 Ano(S)",
+            "Quantidade Máxima": 1,
+            "CIDs": "B900, B91, B92, B941, F000, F001, F002, F009, F010, F011, F012, F013, F018, F019, F023, F842, F848, F849, G09, G10, G114, G120, G121, G122, G128, G129, G130, G20, G319, G35, G368, G369, G373, G378, G379, G610, G619, G621, G700, G710, G800, G801, G802, G803, G804, G808, G809, G811, G819, G820, G821, G822, G823, G824, G825, I690, I691, I692, I693, I694, I698, M069, M080, M246, M45, M623, Q049, Q050, Q051, Q052, Q053, Q054, Q055, Q056, Q057, Q058, Q059, Q068, Q069, Q070, Q078, Q079, Q720, Q743, Q760, S060, S061, S062, S063, S064, S065, S066, S067, S068, S069, S140, S141, S240, S241, S340, S341, T055, T905, T913, T929, T931, T932, T936, T953, Y835, Z897"
     },
     {
         "Categoria": "Adaptação",
@@ -37,6 +37,7 @@
     {
         "Categoria": "Adaptação",
         "Procedimento": "0701010274 - Adaptação De Encosto Para Deformidades De Tronco",
+        "Descrição": "Adaptações Para Atividade De Vida Diária (AVD) – Adaptação De Madeira, Plástico Ou Outro Material Resistente, Com Revestimento Ou Superfície Que Facilite O Deslizamento, Bordas Abauladas, Utilizada Para Facilitar As Transferências De Usuários De Cadeira De Rodas.",
         "Idade Mínima": "Não Se Aplica",
         "Idade Máxima": "Não Se Aplica",
         "Quantidade Máxima": 1,
